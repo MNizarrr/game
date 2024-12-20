@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Game Manuk</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy Bird</title>
+    <link rel="stylesheet" href="game.css">
+    <style>
+        body {
+          background-image: url('Chill Mario.gif  '); 
+          background-size: cover; 
+          background-position: center;
+        }
+      </style>
+</head>
+<body>
+    <div class="game-container">
+        <canvas id="gameCanvas" width="400" height="600"></canvas>
+        <div class="score-container">
+            <p>Skor: <span id="score">0</span></p>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        .list {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            background-color: #f9f9f9;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .list h2 {
+            margin: 0;
+            font-size: 18px;
+        }
+
+        .list ol {
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="list">
+    <h2>Top Score</h2>
+    <ol>
+        <li>Grata : <strong>25</strong></li>
+        <li>Marzuqie : <strong>22</strong></li>
+        <li>Daffa : <strong>18</strong></li>
+    </ol>
+</div>
+
+</body>
+</html>
